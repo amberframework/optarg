@@ -10,7 +10,7 @@ crystal: 0.26.0
 
 dependencies:
   callback:
-    github: drujensen/callback
+    github: amberframework/callback
     version: ~> 0.7.0
   string_inflection:
     github: mosop/string_inflection
