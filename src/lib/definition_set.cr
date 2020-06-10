@@ -9,16 +9,16 @@ module Optarg
       {% for e, i in types %}
         {% if i == 0 %}
           {%
-            a << "if o = df.as?(#{e})"
+            a << "if df.is_a?(#{e})"
           %}
         {% else %}
           {%
-            a << "elsif o = df.as?(#{e})"
+            a << "elsif df.is_a?(#{e})"
           %}
         {% end %}
         {%
-          a << "#{list}[o.key] = o"
-          a << "#{array} << o" if array
+          a << "#{list}[df.key] = df"
+          a << "#{array} << df" if array
         %}
       {% end %}
       {%
