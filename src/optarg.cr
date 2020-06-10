@@ -1,6 +1,6 @@
 require "callback"
 require "string_inflection/snake"
-require "./version"
+require "./optarg/version"
 require "./lib/exceptions"
 require "./lib/value"
 require "./lib/value_hash"
