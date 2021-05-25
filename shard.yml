@@ -11,7 +11,4 @@ crystal: ">= 0.26.0, < 1.1.0"
 dependencies:
   callback:
     github: amberframework/callback
-    version: ~> 0.9.0
-  string_inflection:
-    github: mosop/string_inflection
-    version: ~> 0.2.1
+    version: ~> 0.9.1
