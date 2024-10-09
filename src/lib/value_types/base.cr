@@ -15,7 +15,7 @@ module Optarg::ValueTypes
       end
 
       {% if et %}
-        alias ElementType = {{et}}
+        alias ElementType = ::{{et.id}}
         alias ElementValue = ::Optarg::ValueTypes::{{et.id}}::Value
       {% end %}
 
