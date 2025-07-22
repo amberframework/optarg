@@ -1,3 +1,8 @@
+# DEPRECATED
+
+This shard is deprecated and will not be accepting changes or pull requests.
+Date: July 22nd 2025
+
 # optarg
 
 Yet another Crystal library for parsing command-line options and arguments.
